@@ -4,5 +4,5 @@ const swasthyaschema= new mongoose.Schema({
     email:String,
     password:String
 })
-const swasthyaModel=mongoose.model("users",swasthyaschema)
-module.exports=swasthyaModel
+const swasthyaModel=mongoose.model("swasthy",swasthyaschema)
+module.exports={swasthyaModel}
